@@ -1,8 +1,9 @@
 import { BlogCard } from "@/components/common/blog-card";
 import FadeInScroll from "@/components/common/fade-in-scroll";
 import renderPagination from "./renderPagination";
+import { BlogContent } from "@/types/cmsTypes";
 const renderBlogContents = (
-  contents: any[],
+  contents: BlogContent[],
   totalPages: number,
   page: number,
   categoryParam: string = ""

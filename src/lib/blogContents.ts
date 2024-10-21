@@ -1,5 +1,9 @@
 import cmsClient from "./cmsClient";
-import { BlogContent, BlogContents, Categories, Category } from "@/types/cmsTypes";
+import {
+  BlogContent,
+  BlogContents,
+  Categories,
+} from "@/types/cmsTypes";
 
 export const getContents = async ({
   offset = 0,
